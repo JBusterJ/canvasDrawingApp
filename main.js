@@ -48,5 +48,5 @@ function my_touchmove(e){
 }
 
 function clearArea(){
-    ctx.clearRect(0, 0, ctx.width, ctx.height);
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
